@@ -27,6 +27,7 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['react-icons', 'swiper'],
   },
+  output: 'standalone',
   poweredByHeader: false,
   compress: true,
   reactStrictMode: true,
